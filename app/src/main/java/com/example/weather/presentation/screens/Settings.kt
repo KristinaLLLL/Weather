@@ -30,7 +30,7 @@ fun SettingsScreen(navController: NavHostController){
 
 @Preview(showBackground = true)
 @Composable
-fun pevSettingsScreen(){
+fun prevSettingsScreen(){
     WeatherTheme() {
         SettingsScreen(navController = rememberNavController())
     }
