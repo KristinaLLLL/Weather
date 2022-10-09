@@ -17,7 +17,7 @@ fun WeatherNavHost(){
     val navController = rememberNavController()
 
     NavHost(navController = navController, startDestination = NavRoute.Home.route){
-        composable(NavRoute.Home.route){ HomeScreen(navController = navController)}
+        composable(NavRoute.Home.route){HomeScreen(navController = navController) }
         composable(NavRoute.Settings.route){ SettingsScreen(navController = navController)}
     }
 }
